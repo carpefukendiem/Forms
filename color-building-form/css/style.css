@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Neuton);
+
+*,*:before,*:after {
+  box-sizing: border-box;
+
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.color-building-form {
+  width: 30em;
+  background-color: mediumaquamarine;
+  border: 7px double rgba(136,136,136,.5);
+  padding: 2em;
+  margin-top: 10em;
+  border-radius: 3px;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+  font-size: 2.25em;
+  color: white;
+  text-shadow: 
+    1px 0px 1px #aaa, 0px 1px 1px #000, 
+    2px 1px 1px #aaa, 1px 2px 1px #000,
+    3px 2px 1px #aaa, 2px 3px 1px #000
+}
+
+em {
+  color: tomato;
+}
+label {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: .25em;
+}
+
+label[for=red] {
+  color: red;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+label[for=blue] {
+  color: blue;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+label[for=green] {
+  color: green;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+label[for=alpha] {
+  color: coral;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+input[type=text] {
+  margin-top: 3em;
+  padding-top: 10em;
+  border-radius: 5px;
+}
+
+iput[id=alpha] {
+  color: yellow;
+}
+
+a.back {
+  position: relative;
+  bottom: 5em;
+  text-decoration:none;
+  padding-left: .5em;
+  color: coral;
+  font-size: 350%; 
+}

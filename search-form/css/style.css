@@ -1,0 +1,87 @@
+/* CSS Setup */
+html {
+  box-sizing: border-box;
+  background: url(https://static.pexels.com/photos/6290/alcohol-party-glass-table.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin-top: 10em;
+}
+
+/* Flex Container */
+.flex-search > * {
+  border: 0;
+  padding: 20px;
+  background: white;
+  line-height: 40px;
+  font-size: 24px;
+  border-radius: 1px;
+  outline: 0;
+  border-right: 1px solid rgba(0,0,0,.3);
+/*  Make drop down search bar flush with rest of search bar  */
+  -webkit-appearance:none;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  -webkit-align-content: center; 
+  align-content: center; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: .15em;
+  color: white;
+  font-size: 5em;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.7),
+               0 0 5px rgba(0,0,0,.7),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.3),
+               0 5px 10px rgba(0,0,0,.1),
+               0 10px 10px rgba(0,0,0,.1),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.flex-search {
+  display: flex;
+  border: 15px solid rgba(0,0,0,.25);
+  border-radius: 4px;
+}
+
+input[type=search] {
+  width: 17em;
+}
+
+input[type=submit]{
+  background-color: #ed0212;
+  color: white;
+}
+
+@media all and (max-width: 1000px) {
+  
+}
+
+@media all and (max-width: 500px) {
+  
+}
+
+a.back {
+  position: relative;
+  bottom: 5em;
+  text-decoration:none;
+  padding-left: .5em;
+  color: white;
+  font-size: 200%; 
+}
