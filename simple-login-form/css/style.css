@@ -1,0 +1,89 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: deepskyblue;
+}
+form {
+  display: block;
+  background: #eee;
+  text-align: left;
+  margin: 0 auto;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 4px;
+  font-family: "Helvetica Neue";
+  font-size: 1.2em;
+  overflow: hidden;
+  width: 20em;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 4px;
+  font-family: "Helvetica Neue";
+  font-size: 1em;
+  margin: 0;
+}
+
+.account-login {
+  padding: 2em;
+}
+
+.account-login label {
+  color: black;
+  display: block;
+  float: left;
+  font-weight: 800;
+  margin-bottom: .1em;
+  margin-top: 1.5em;
+}
+
+.account-login input {
+  background: #eee;
+  border: 1px solid grey;
+  box-shadow: inset 1px 2px 2px rgba(0,0,0,.5);
+  color: darkgrey;
+  padding: .5em;
+  margin-top: .5em;
+  width: 95%;
+}
+
+.account-action {
+  background: #aaa;
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding: 1.5em;
+}
+
+.account-action .btn {
+  background: blue;
+  color: white;
+  border: 0;
+  font-weight: 800;
+  padding: .5em 1em;
+}
+
+.account-action label {
+  color: white;
+  font-size: 1em;
+  margin: 1em 0 0 1em;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+a.back {
+  position: relative;
+  btop: 5em;
+  text-decoration:none;
+  padding-left: .5em;
+  color: white;
+  font-size: 200%; 
+}
