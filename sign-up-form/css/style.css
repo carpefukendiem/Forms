@@ -1,0 +1,200 @@
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Source-Sans-Pro);
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+  background-color: rgba(0,0,0,0.9);
+}
+header .logo {
+  width: 50px;
+  margin: 0 auto;
+  height: 60px;
+  padding-top: .5em;
+}
+.not-interested {
+  padding: 0 1em .5em .5em;
+  color: #fff;
+  font-size: .8em;
+  
+}
+.signup-to-cut {
+  font-size: 90%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 700px;
+  padding: 1em;
+}
+.upper-case {
+  text-transform: uppercase;
+}
+.get-hair-cut {
+  font-size: 1em;
+  border-radius: 7px;
+  background-color: rgba(0,0,0,0.9);
+  color: darkgrey;
+}
+.hero {
+  padding: 1em;
+}
+.barber-chair-bg {
+  height: 600px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .9),rgba(0, 0, 0, .7)),
+  url(https://s-media-cache-ak0.pinimg.com/736x/89/64/a3/8964a35b1c690de090eaaea253de094c.jpg) center center no-repeat #000;
+  background-size:cover;
+}
+.main-content {
+  padding: 1em 5em 1em 5em;
+  margin-right: 3em;
+  background-color: rgba(255,255,255,.06);
+  width: 700px;
+  height: 25em;
+  float: left;
+  color: #fff;
+  border-radius: 20px;
+}
+.main-content>h1 {
+  font-family: 'Playfair Display', 'Playfair Display SC', serif;
+  font-style: italic;
+  text-align: center;
+  font-size:3.5em;
+
+}
+.main-content>p {
+  font-size: 1.3em;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+.optin{
+  display: relative;
+  float: right;
+  width: 340px;
+  background: #fff;
+}
+.content {
+  display: flex;
+  flex-flow: right;
+  justify-content: center;
+}
+.like-you{
+  color: white;
+  text-shadow: 2px 3px 2px #0557ff;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  border-radius: 3px;
+  width: 367px;
+  height: 750px;
+  padding: 3em;
+  
+}
+
+input[type]{
+  margin-top: 1em;
+  padding: 1em;
+  width: 100%;
+}
+.optin-title{
+  text-align: center;
+  font-family: "Playfair Display SC";
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  margin-bottom: 1em;
+  margin-top: -1em;
+  width: 15em;
+}
+input[type="submit"]{
+  background-color: #08b1d3;
+  color: #fff;
+  font-size: 2rem;
+}
+label[for="traffic-source"]{
+  padding: 1em;
+}
+select[name="hear"]{
+  width: 90%;
+}
+
+.perks-content{
+  padding: 7em 7em 0 7em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background:linear-gradient(#236bff,#62ccf8, #62ccf8);
+}
+section{
+  width: 66%;
+}
+
+article p{
+  width: 100%;
+  padding-left: 3em;
+  padding-bottom: 2em;;
+  
+}
+article{
+  display: flex;
+}
+h2{
+  font-size: 2.25em;
+  font-family: "Playfair Display SC";
+  padding-left: 1.25em;
+  
+}
+img {
+  padding-bottom: 2em;
+}
+
+/* 
+.optin-title:before {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  content: "";
+  display: inline-block;
+  height: .1em;
+  position: relative;
+  vertical-align: middle;
+  padding: .1em;
+  width: 10%;
+  margin-bottom: .15em;
+}
+
+.optin-title:after {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  content: "";
+  display: inline-block;
+  height: .1em;
+  position: relative;
+  vertical-align: middle;
+  padding: 1em;
+  width: 10%;
+  margin-bottom: .15em;
+} */
+.already{
+  background-color: red;
+  width: 50px;
+}
+
+a.back {
+  position: relative;
+  top: 1em;
+  text-decoration:none;
+  padding-left: .5em;
+  color: white;
+  font-size: 200%; 
+}
